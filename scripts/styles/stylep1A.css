@@ -1,0 +1,51 @@
+
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+}
+
+th{
+    background:  #687291;
+    color:       #eeeff2;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: left;
+    padding-right: 20px; 
+}
+
+td{
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: left;
+    padding-right: 20px; 
+}
+
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+tr { 
+    border: 1px solid white;
+}
+
+tfoot{
+    display: none;
+}
+
+
+.shaded {
+    background: #eeeff2;
+
+	
+}
+
+.grshaded {
+    background: #dfe1e7;
+
+}
+
+.center {
+    text-align: center;
+
+}

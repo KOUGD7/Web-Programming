@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Course Creation Form</title>
+    <link rel="stylesheet" type="text/css" href="Styles/p2.css"/>
+    <script type="text/javascript" src="scripts/p2.js"> </script>
+  </head>
+  <body>
+  	<h1> Course Creation Form </h1>
+    <form action="http://localhost/scripts/p3.php" method="post" onsubmit="return validate();">
+    	<p>
+        	<label>Course Code</label>
+               <input id="courseCode" type="text" name="courseCode"/>
+            <br />
+
+            <label>Course Title</label>
+               <input id="courseTitle" type="text" name="courseTitle"/>
+            <br />
+
+            <label>Course Discipline</label>
+               <input id="courseDiscipline" type="text" name="courseDiscipline"/>
+            <br />
+
+            <label>Level</label>
+               <input id="level" type="text" name="level"/>
+            <br />
+
+            <label>Credit</label>
+               <input id="credit" type="text" name="credit"/>
+            <br />
+
+            <label>Semester</label>
+                     <input id="semester" type="text" name="semester" />
+             <br />
+
+             <label>Author</label>
+        		<select id="author" name="author">
+            		<option value="0" selected="selected">Select author</option> 
+                    <option value="1">Sara Lambert</option>
+                    <option value="2">Brad Williams</option>
+                    <option value="3">Rosalyn Brown</option>
+                    <option value="4">Emil Powell</option>
+                    <option value="5">Rene Picard</option>
+                    <option value="6">Larry Fields</option>
+                </select>
+                <br />
+
+                <input type="submit" value="Submit" id="Submit1" name="Submit1"/>
+                <br />
+
+                <!--<label>Hidden form element</label>-->
+          		<input type="hidden" name="test" value="c7fafc6d1d3ec4671a342b64e319909f"/>
+         </p>
+    </form>
+   </body>
+</html>

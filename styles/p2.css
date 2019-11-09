@@ -1,0 +1,91 @@
+form{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+    background: azure;
+    border: solid azure 30px;
+    outline: solid #3366CC;
+    width: 40em;
+}
+
+label{
+  padding: 1em;
+  width:10em;
+  background-color: azure;
+  display:inline-block;
+  color: #142952;
+}
+
+
+h1{
+    font: bold;
+    color: darkblue;
+    font-size: 1.4em;
+}
+
+input[type=text], select {
+    padding: 6px 10px;
+    margin: 3px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+}
+
+
+input[type=password], select {
+    padding: 6px 10px;
+    margin: 3px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password]{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+}
+/*input:hover::-webkit-input-placeholder { color:transparent; }
+input:hover:-moz-placeholder { color:transparent; }*/                   
+
+select {
+   font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+}
+
+input[type=submit] { 
+    background-color: #3366CC;
+    color: white;
+    padding: 7px 10px;
+    margin: 7px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+}
+
+input[type=submit]:hover {
+    background-color: darkblue;
+    padding: 7px 10px;
+    margin: 7px 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+}
+
+.valid {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+}
+
+.invalid {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+    color: red;
+    border-color:red;
+}
+
+

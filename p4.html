@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="Styles/p2.css"/>
+    <script type="text/javascript" src="scripts/p2.js"> </script>
+  </head>
+  <body>
+  	<h1>Login</h1>
+    <form action="http://localhost/scripts/Problem4.php" method="post" onsubmit="return validate();">
+    	<p>
+        	<label>Username</label>
+               <input id="username" type="text" name="username"/>
+            <br />
+
+            <label>Password</label>
+               <input id="password" type="password" name="password" />
+            <br />
+
+                <input type="submit" value="Submit" id="Submit1" name="Submit1"/>
+                <br />
+
+                <!--<label>Hidden form element</label>-->
+          		<input type="hidden" name="test" value="c7fafc6d1d3ec4671a342b64e319909f"/>
+         </p>
+    </form>
+   </body>
+</html>
